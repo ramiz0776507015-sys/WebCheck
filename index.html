@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>WebCheck</title>
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>The challenge of writing code from scratch</h1>
+
+    <div id="difficultySide"><h2>difficulty</h2>
+
+        <select name="difficulty" id="difficultyOption">
+
+            <option value="easy">easy</option>
+            <option value="normal">normal</option>
+            <option value="hard">hard</option>
+
+        </select>
+
+    </div>
+
+    <div id="Start">
+
+        <button id="startButton" onclick="start()">Start</button>
+        <div id="timeControl">
+            <h2 id="time">00:00</h2>
+            <button id="PauseResume" onclick="PauseResume()" style="display:none;">■</button>
+        </div>
+        
+
+    </div>
+  
+    <div id="questionSide">
+
+        <h2>question</h2>
+        <h4 id="question" ></h4>
+        <button id="giveUp" onclick="giveUp()">Give up</button>
+
+    </div>
+   
+    <div>
+
+        <h3>The answer may differ!!!</h3>
+        <h4 id="answer"></h4>
+
+    </div>
+
+    <h1>Completion</h1>
+    <div id="questionCom">
+
+   <p>&lt;p&gt;Hello word!!&lt;<span id="q1" contenteditable="true"></span>p&gt;</p>
+
+   <p>&lt;div&gt;&lt;p&gt;Hello word!!&lt;/p&gt;&lt;/<span id="q2" contenteditable="true"></span>&gt;</p>
+
+    
+   <p>&lt;<span id="q3" contenteditable="true"></span>&gt;Hello&lt;/<span id="q4" contenteditable="true"></span>&gt;</p>
+
+
+   <p>&lt;a href="<span id="q5" contenteditable="true"></span>"&gt;Visit&lt;/a&gt;</p>
+
+
+   <p>&lt;img src="<span id="q6" contenteditable="true"></span>" alt="My Image"&gt;</p>
+
+
+   <p>&lt;input type="<span id="q7" contenteditable="true"></span>" placeholder="Your name"&gt;</p>
+
+
+   <p>&lt;ul&gt;<br>
+     &nbsp;&nbsp;&lt;li&gt;<span id="q8" contenteditable="true"></span>&lt;/li&gt;<br>
+     &nbsp;&nbsp;&lt;li&gt;<span id="q9" contenteditable="true"></span>&lt;/li&gt;<br>
+     &lt;/ul&gt;
+    </p>
+
+
+   <p>&lt;<span id="q10" contenteditable="true"></span> src="script.js"&gt;&lt;/<span id="q11" contenteditable="true"></span>&gt;</p>
+
+   <button id="Check" onclick="Check()">Check</button>
+    </div>
+
+   
+<footer>
+    <p>This project was created by Ramiz Al-Afeef for CodeSprout 2025 Begginer's Edition</p>
+    <a href="https://codesprout.devpost.com/"><img src="https://d112y698adiu2z.cloudfront.net/photos/production/challenge_photos/003/634/694/datas/full_width.png" alt="CodeSprout 2025 Begginer's Edition logo"></a>
+<a href="https://github.com/ramiz0776507015-sys/WebCheck"><img src="https://github.com/fluidicon.png" alt="github Logo"></a>
+</footer>
+</body>
+</html>

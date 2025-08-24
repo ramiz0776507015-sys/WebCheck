@@ -1,0 +1,108 @@
+span {
+border: 2px, black;
+padding: 2px;
+margin: 2px;
+}
+h1{
+    color: #37353E;
+    border: 2px,solid,#151418 ;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #767686;
+
+}
+body{
+    background-color:#D3DAD9;
+    padding: 22px;
+}
+#difficultySide{
+    display: flex;
+    gap: 20px;
+    border: 3px,solid, #151418;
+    border-radius: 15px;
+    background-color: #9b9bb3 ;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+select {
+      margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #37353E;
+    background-color: #f9f9f9;
+    border: 2px solid #151418;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+select:hover {
+    border-color: #37353E;
+}
+
+
+select:focus {
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+#Start{
+    display: flex ;
+    gap: 10px;
+    border:2px,solid, #37353E;
+    box-shadow:0 0 5px rgba(74, 144, 226, 0.5); ;
+    padding-left: 10px;  
+}
+
+#timeControl{
+    gap: 10px;
+    display: flex;
+}
+#startButton ,#PauseResume{
+    margin: 10px;
+    color: #151418;
+    width: 50px;
+    height: 50px;
+    border: 2px, solid, black;
+    border-radius: 10px;
+}
+#PauseResume{
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+      margin: 18px;
+}
+#time{
+ border: 2px, solid, #1d1b22 ;
+}
+#questionCom{
+    width: 500px;
+  
+}
+#Check{
+    background-color:#37353E;
+}
+#giveUp{
+    background-color: red;
+    width: 90px;
+    height: 40px;
+    border: 2px ,solid,  #1d1b22;
+    border-radius: 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #201f24;
+    font-size: 14px;
+    border-top: 1px solid #ccc;
+    background-color: #767686;
+    
+}
+img{
+    width: 100px;
+    height: 100px;
+}
